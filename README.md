@@ -12,4 +12,4 @@ This script does the following stuff:
 - launch linear regression training
 - generate a C file for prediction
 - compile C file
-- run C file to display a prediction on hard coded to data
+- run C file to display a prediction on hard coded data
