@@ -79,7 +79,7 @@ int main(int argc, char *argv[])
     {c_coefs}
     int n_thetas = {n_thetas};
     float features[2] = {{-0.004164936524136716,0.0017850734344602727}};
-    float pred = logistic_regression_prediction(features, thetas, n_thetas);
+    float pred = linear_regression_prediction(features, thetas, n_thetas);
 
     printf("%f", pred);
 }}
